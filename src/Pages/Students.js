@@ -12,10 +12,6 @@ const Students = () => {
     navigate("/addnewstudent");
   };
 
-  const goToEditStudent = () => {
-    navigate("/editstudent", { state: { formData: data } });
-  };
-
   return (
     <div>
       <div>

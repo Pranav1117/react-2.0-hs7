@@ -1,4 +1,3 @@
-import React from "react";
 import { createSlice } from "@reduxjs/toolkit";
 const list = [
   { id: 0, Name: "Harry", Age: 21, Course: "MERN", Batch: "October" },

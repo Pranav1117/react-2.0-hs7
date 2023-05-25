@@ -21,7 +21,7 @@ const EditStudent = () => {
     Batch: "",
   });
   const handleOnChange = (e) => {
-    studentData[e.target.name] = e.target.value;
+    setStudentData[e.target.name] = e.target.value;
     console.log(studentData);
   };
   const handleUpdate = () => {
