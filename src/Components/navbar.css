@@ -1,0 +1,15 @@
+*{
+    text-decoration: none;
+}
+.navbar{
+    
+    display: flex;
+    justify-content: space-evenly;
+    background-color: navy;
+    
+
+}
+.text{
+    color: white;
+    font-size: 29px;
+}
